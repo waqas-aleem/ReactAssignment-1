@@ -155,7 +155,58 @@ function App() {
 
 </div>
 {/* best burger */}
+{/* <!-- Big Burger --> */}
+<div  class=" container-fluid bigburderarea">
+  <div class="row">
+    <div class="col-md-2 col-sm-12 col-lg-4">
+   
+       <img src={Shape4} alt="" class="ourchefshape4 mt-5 ml-0" style={{transform: "scaleX(-1)"}}/>
+   
+    </div>
+    <div class="col-md-8 col-sm-12 col-lg-4 text-center"  >
+       
+      <img src={Shape2} alt="" class="ourchefshape2 " style={{transform: "scaleX(-1)", marginTop:"0px"}}/>
+       
+      </div>
+      <div class="col-md-2 col-sm-12 col-lg-4 text-end"  >
+       
+          <img src={Shape5} alt="" class="ourchefshape4 mt-5 ml-0"/>
+        
+        </div>
+  </div>
 
+  <div class="row">
+    <div class="col-md-6 ">
+      <div class="mt-5 text-center"  >
+      <p class="bigburderheading">Big Burger</p>
+      <p class="bigburgerp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+      <button class="orderbtn"> Order Now </button>
+  </div>
+    </div>
+    <div class="col-md-6">
+    
+      <div class="mt-5 text-center" >
+        <img src={burger} alt="" class="bestburgerimg"/>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4 col-lg-4 text-center">
+      <img src={Shape1} class="ourchefshape1 mb-5" alt="" style={{transform: "scaleX(-1)"}}/>
+    </div>
+
+
+    <div class="col-md-4 col-lg-4 text-center">
+      <img src={Shape6} alt="" class="ourchefshape6" style={{transform: "rotate(180deg)"}}/>
+      
+    </div>
+   
+    <div class="col-md-4 col-lg-4 text-end">
+    <img src="assets/Shape3.png" alt="" class="ourchefshape3" style={{transform: "scaleX(-1)"}}/>
+  </div>
+  </div>
+</div>
+{/* <!-- Big Burger --> */}
 </div> 
     
   );
