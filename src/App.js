@@ -11,7 +11,7 @@ import chef2 from "./assets/chef-2.jpg";
 import chef3 from "./assets/chef-3.png";
 import burger from "./assets/burger.png";
 import bicon from './assets/bicon.png'
-import '../node_modules/font-awesome/css/font-awesome.min.css'; 
+import '../node_modules/font-awesome/css/font-awesome.min.css';
 function App() {
   return (
     <div>
@@ -93,7 +93,7 @@ function App() {
       <div className="container-fluid ourchefarea">
         <div className="row">
           <div className="col-md-2 col-sm-12 col-lg-2">
-            <img src={Shape1} className="ourchefshape1" />
+            <img src={Shape1} className="ourchefshape1" alt="" />
           </div>
 
           <div className="col-md-8 col-sm-12 col-lg-8">
@@ -104,7 +104,7 @@ function App() {
             </p>
           </div>
           <div className="col-md-2 col-sm-12 col-lg-2">
-            <img src={Shape2} className="ourchefshape2" />
+            <img src={Shape2} className="ourchefshape2" alt=""  />
           </div>
         </div>
         <div className="row">
@@ -285,263 +285,263 @@ function App() {
 
 
       {/* <!-- Popular Area --> */}
-<div className="container-fluid populararea position-relative" >
-  <div className="row">
-    <div className="col-md-2 text-end">
-      <img src={Shape5} alt="" className="ourchefshape5 mb-0" style={{transform: "rotate(0deg)"}} />
-    </div>
-    <div className="col-md-8">
-      <p className="popularheading mt-5"> Popular Package</p>
-    </div>
-    <div className="col-md-2 text-start">
-      <img src={Shape2} alt="" className="ourchefshape2 mb-0" style={{transform: "rotate(0deg)"}}/>
-    </div>
-  </div>
-  <div className="position-relative"> 
-  <div className="row">
-    <div className="col-md-2 col-lg-2">
-      <img src={Shape4} alt="" className="ourchefshape4 ml-0" style={{transform: "scaleX(-1)"}}/>
-    </div>
-      <div className="col-md-3 popularpackarea mb-5 ">
-       <p className="packageheading">Package I</p>
-       <div className="text-center">
-       <img src={bicon}  alt="" className="bicon"/>
-      </div>
-      <div className="text-center">
-        <p className="packageheading">$10.00</p>
-       </div>
-       <div className="text-center">
-       <p className="packagep">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-          <div className="text-center">
-            <button className="orderbtn mb-3 mt-3"> Order Now </button>
-          </div> 
-      </div>
-      <div className="col-md-3 popularpackarea ms-5 mb-5  ">
-        <p className="packageheading">Package II</p>
-        <div className="text-center">
-          <img src={bicon}  alt="" className="bicon"/> 
-         </div>
-         <div className="text-center">
-          <p className="packageheading">$20.00</p>
-         </div>
-         <div className="text-center">
-          <p className="packagep">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-         </div>
-         <div className="text-center">
-          <button className="orderbtn mb-3 mt-3"> Order Now </button>
-        </div> 
-      </div>
-      <div className="col-md-3 popularpackarea ms-5 mb-5" style={{zIndex: "10"}}>
-        <p className="packageheading">Package III</p>
-        <div className="text-center">
-          <img src={bicon} alt="" className="bicon"/>
-         </div>
-         <div className="text-center">
-         <p className="packageheading">$30.00</p>
-        </div>
-        <div className="text-center">
-          <p className="packagep">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-         </div>
-         <div className="text-center">
-          <button className="orderbtn mb-3 mt-3"> Order Now </button>
-        </div> 
-      </div>
-    <div className="col-md-1 text-end">
-      <img src={Shape1} alt="" className="ourchefshape4 mt-5 ml-0" style={{transform: "scaleX(-1)"}}/>
-    </div>
-    
-    </div>
-  </div>
-
-  <div className="row">
-    <div className="col-md-6">
-      <img src={Shape6} alt="" className="ourchefshape6" style={{width: "80px", marginTop: "100px",transform: "rotate(180deg)",position: "absolute",bottom: "20px",left: "0px"}}/>
-    </div>
-    <div className="col-md-6">
-      <img src={Shape3} alt="" className="ourchefshape3" style={{width: "120px",marginTop: "100px",transform: "rotate(320deg)",position: "absolute", bottom: "10px",right: "130px"}}/>
-    </div>
-  </div>
- 
-</div>
-{/* <!-- Popular Area --> */}
-
-
-{/* <!-- berry henderson area --> */}
-
-<div className="container-fluid barryimage mx-0 px-0 position-relative">
-  <div className=" container-fluid layoutsecond" >
-  </div>
-  <span className="layoutsecondtext position-absolute">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </span>
-  <br/>
-  <span className="layoutsecondtext2 mt-3 position-absolute-text">Barry Henderson</span>
-</div>
-
-
-{/* <!-- berry henderson area --> */}
-{/* <!-- newsletter --> */}
- <div className="container-fluid newletterarea">
-   <div className="row">
-      <div className="col-md-4 text-center">
-        <img src={Shape5} alt="" className="ourchefshape5 mb-0" style={{transform: "rotate(0deg)"}}/>
-      </div>
-      <div className="col-md-4 text-center">
-        <img src={Shape4} alt="" className="ourchefshape4 mt-5 ml-0" style={{transform : "scaleX(-1)"}}/>
-      </div>
-      <div className="col-md-4 text-end">
-        <img src={Shape2} alt="" className="ourchefshape2 mb-0" style={{transform: "rotate(0deg)"}}/>
-      </div>
-   </div>
-   <div className="row">
-     <div className="col-md-12">
-       <p className="newletterheading">Don’t miss Our Update</p>
-     </div>
-   </div>
-   <div className="row">
-    <div className="col-md-2">
-      <img src={Shape6} alt="" className="ourchefshape6" style={{width: "80px",marginTop: "40px",transform: "rotate(180deg)"}}/>
-    </div>
-    <div className="col-md-8">
-      <p className="newletterp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
-    </div>
-    <div className="col-md-2">
-      <img src={Shape1} alt="" className="ourchefshape4 mt-2" style={{transform: "scaleX(-1)"}} />
-    </div>
-   </div>
-   <div className="row">
-     <div className="col-md-4"></div>
-         <div className="col-md-4">
-
-
-      <div className="content">
-
-        <div className="input-group">
-          <input type="email" className="form-control  form-section" placeholder="Enter your email..."/>
-          <span className="input-group-btn">
-            <button className="btn formbtn" type="submit">SUBSCRIBE</button>
-          </span>
-        </div>
-      </div>
-    </div>
-    <div className="col-md-4"></div>
-  </div>
- <div className="row">
-    
-    <div className="col-md-2">
-      <img src={Shape3} alt="" className="ourchefshape3" style={{width: "106px",marginTop: "107px",marginBottom: "50px"}}/>
-     </div>
-   <div className="col-md-8 text-center mt-5">
-    <img src={Shape5} alt="" className="ourchefshape5 mb-0" style={{transform: "rotate(0deg)"}}/>
-   </div>
-   <div className="col-md-2 mt-5">
-    <img src={Shape4} alt="" className="ourchefshape4 ml-0" style={{transform: "scaleX(-1)"}}/>
-   </div>
- </div>
- </div>
-{/* <!--  newletter--> */}
-
-{/* <!-- Footer --> */}
-<div className="footer">
-  <div className="container-fluid">
-    <div className="row">
-      <div className="col-md-6 col-sm-12 col-lg-6">
-        <p className="footertitle socialiconsmargin">Title Here</p>
-        <p className="footertitlep socialiconsmargin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at dignissim nunc, id maximus ex. Etiam nec dignissim elit, at dignissim enim. </p>
-        <div className="socialiconsmargin">
-        <div className="socialicons">
-          <a href="" style={{color: "black"}}>
-            <i className="fa fa-instagram" aria-hidden="true"></i>
-          </a>
-        </div>
-        <div className="socialicons">
-          <a href="" style={{color: "black"}}>
-            <i className="fa fa-facebook" aria-hidden="true"></i>
-          </a>
-        </div>
-        <div className="socialicons">
-          <a href="" style={{color: "black"}}>
-            <i className="fa fa-twitter" aria-hidden="true"></i>
-          </a>
-        </div>
-        <div className="socialicons">
-          <a href="" style={{color: "black"}}>
-            <i className="fa fa-whatsapp" aria-hidden="true"></i>
-          </a>
-        </div>
-      </div>
-           
-        
-            
-     
-        
-     
-      </div >
-      <div className="col-md-6 col-sm-12 col-lg-6">
+      <div className="container-fluid populararea position-relative" >
         <div className="row">
-          <div className="col-md-4 col-sm-12 col-lg-4">
-        
-               
-            <p className="footertitle">About</p>
-           <a href=""  >
-            <p className="footertitlep">History</p>
-          </a>
-          <a href=""  >
-            <p className="footertitlep">Our Team</p>
-            </a>
-            <a href=""  >
-            <p className="footertitlep">Brand Guidelines</p>
-            </a>
-            <a href=""  >
-            <p className="footertitlep">Terms {"&"} Condition</p>
-            </a>
-            <a href=""  >
-            <p className="footertitlep">Privacy Policy</p>
-          </a>
-           
+          <div className="col-md-2 text-end">
+            <img src={Shape5} alt="" className="ourchefshape5 mb-0" style={{ transform: "rotate(0deg)" }} />
           </div>
-          <div className="col-md-4 col-sm-12 col-lg-4">
-            <a href="" >
-            <p className="footertitle">Services</p>
-            </a>
-            <a href=""  >
-            <p className="footertitlep">How to Order</p>
-            </a>
-            <a href=""  >
-            <p className="footertitlep">Our Product</p>
-            </a>
-            <a href=""  >
-            <p className="footertitlep">Order Status</p>
-            </a>
-            <a href=""  >
-            <p className="footertitlep">Promo</p>
-            </a>
-            <a href=""  >
-            <p className="footertitlep">Payment Method</p>
-            </a>
-           
+          <div className="col-md-8">
+            <p className="popularheading mt-5"> Popular Package</p>
           </div>
-          <div className="col-md-4 col-sm-12 col-lg-4">
-            <p className="footertitle">Other</p>
-            <a href="">
-            <p className="footertitlep">Contact Us</p>
-          </a>
-          <a href="">
-            <p className="footertitlep">Help</p>
-          </a>
-          <a href="">
-            <p className="footertitlep">Privacy</p>
-          </a>
-            
+          <div className="col-md-2 text-start">
+            <img src={Shape2} alt="" className="ourchefshape2 mb-0" style={{ transform: "rotate(0deg)" }} />
+          </div>
+        </div>
+        <div className="position-relative">
+          <div className="row">
+            <div className="col-md-2 col-lg-2">
+              <img src={Shape4} alt="" className="ourchefshape4 ml-0" style={{ transform: "scaleX(-1)" }} />
+            </div>
+            <div className="col-md-3 popularpackarea mb-5 ">
+              <p className="packageheading">Package I</p>
+              <div className="text-center">
+                <img src={bicon} alt="" className="bicon" />
+              </div>
+              <div className="text-center">
+                <p className="packageheading">$10.00</p>
+              </div>
+              <div className="text-center">
+                <p className="packagep">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+              <div className="text-center">
+                <button className="orderbtn mb-3 mt-3"> Order Now </button>
+              </div>
+            </div>
+            <div className="col-md-3 popularpackarea ms-5 mb-5  ">
+              <p className="packageheading">Package II</p>
+              <div className="text-center">
+                <img src={bicon} alt="" className="bicon" />
+              </div>
+              <div className="text-center">
+                <p className="packageheading">$20.00</p>
+              </div>
+              <div className="text-center">
+                <p className="packagep">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+              <div className="text-center">
+                <button className="orderbtn mb-3 mt-3"> Order Now </button>
+              </div>
+            </div>
+            <div className="col-md-3 popularpackarea ms-5 mb-5" style={{ zIndex: "10" }}>
+              <p className="packageheading">Package III</p>
+              <div className="text-center">
+                <img src={bicon} alt="" className="bicon" />
+              </div>
+              <div className="text-center">
+                <p className="packageheading">$30.00</p>
+              </div>
+              <div className="text-center">
+                <p className="packagep">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+              <div className="text-center">
+                <button className="orderbtn mb-3 mt-3"> Order Now </button>
+              </div>
+            </div>
+            <div className="col-md-1 text-end">
+              <img src={Shape1} alt="" className="ourchefshape4 mt-5 ml-0" style={{ transform: "scaleX(-1)" }} />
+            </div>
+
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col-md-6">
+            <img src={Shape6} alt="" className="ourchefshape6" style={{ width: "80px", marginTop: "100px", transform: "rotate(180deg)", position: "absolute", bottom: "20px", left: "0px" }} />
+          </div>
+          <div className="col-md-6">
+            <img src={Shape3} alt="" className="ourchefshape3" style={{ width: "120px", marginTop: "100px", transform: "rotate(320deg)", position: "absolute", bottom: "10px", right: "130px" }} />
+          </div>
+        </div>
+
+      </div>
+      {/* <!-- Popular Area --> */}
+
+
+      {/* <!-- berry henderson area --> */}
+
+      <div className="container-fluid barryimage mx-0 px-0 position-relative">
+        <div className=" container-fluid layoutsecond" >
+        </div>
+        <span className="layoutsecondtext position-absolute">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </span>
+        <br />
+        <span className="layoutsecondtext2 mt-3 position-absolute-text">Barry Henderson</span>
+      </div>
+
+
+      {/* <!-- berry henderson area --> */}
+      {/* <!-- newsletter --> */}
+      <div className="container-fluid newletterarea">
+        <div className="row">
+          <div className="col-md-4 text-center">
+            <img src={Shape5} alt="" className="ourchefshape5 mb-0" style={{ transform: "rotate(0deg)" }} />
+          </div>
+          <div className="col-md-4 text-center">
+            <img src={Shape4} alt="" className="ourchefshape4 mt-5 ml-0" style={{ transform: "scaleX(-1)" }} />
+          </div>
+          <div className="col-md-4 text-end">
+            <img src={Shape2} alt="" className="ourchefshape2 mb-0" style={{ transform: "rotate(0deg)" }} />
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-md-12">
+            <p className="newletterheading">Don’t miss Our Update</p>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-md-2">
+            <img src={Shape6} alt="" className="ourchefshape6" style={{ width: "80px", marginTop: "40px", transform: "rotate(180deg)" }} />
+          </div>
+          <div className="col-md-8">
+            <p className="newletterp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+          </div>
+          <div className="col-md-2">
+            <img src={Shape1} alt="" className="ourchefshape4 mt-2" style={{ transform: "scaleX(-1)" }} />
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-md-4"></div>
+          <div className="col-md-4">
+
+
+            <div className="content">
+
+              <div className="input-group">
+                <input type="email" className="form-control  form-section" placeholder="Enter your email..." />
+                <span className="input-group-btn">
+                  <button className="btn formbtn" type="submit">SUBSCRIBE</button>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4"></div>
+        </div>
+        <div className="row">
+
+          <div className="col-md-2">
+            <img src={Shape3} alt="" className="ourchefshape3" style={{ width: "106px", marginTop: "107px", marginBottom: "50px" }} />
+          </div>
+          <div className="col-md-8 text-center mt-5">
+            <img src={Shape5} alt="" className="ourchefshape5 mb-0" style={{ transform: "rotate(0deg)" }} />
+          </div>
+          <div className="col-md-2 mt-5">
+            <img src={Shape4} alt="" className="ourchefshape4 ml-0" style={{ transform: "scaleX(-1)" }} />
           </div>
         </div>
       </div>
-    </div>
-  </div>
+      {/* <!--  newletter--> */}
 
-</div>
+      {/* <!-- Footer --> */}
+      <div className="footer">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-md-6 col-sm-12 col-lg-6">
+              <p className="footertitle socialiconsmargin">Title Here</p>
+              <p className="footertitlep socialiconsmargin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at dignissim nunc, id maximus ex. Etiam nec dignissim elit, at dignissim enim. </p>
+              <div className="socialiconsmargin">
+                <div className="socialicons">
+                  <a href="#" style={{ color: "black" }}>
+                    <i className="fa fa-instagram" aria-hidden="true"></i>
+                  </a>
+                </div>
+                <div className="socialicons">
+                  <a href="#" style={{ color: "black" }}>
+                    <i className="fa fa-facebook" aria-hidden="true"></i>
+                  </a>
+                </div>
+                <div className="socialicons">
+                  <a href="#" style={{ color: "black" }}>
+                    <i className="fa fa-twitter" aria-hidden="true"></i>
+                  </a>
+                </div>
+                <div className="socialicons">
+                  <a href="#" style={{ color: "black" }}>
+                    <i className="fa fa-whatsapp" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
 
 
-{/* <!-- Footer --> */}
+
+
+
+
+            </div >
+            <div className="col-md-6 col-sm-12 col-lg-6">
+              <div className="row">
+                <div className="col-md-4 col-sm-12 col-lg-4">
+
+
+                  <p className="footertitle">About</p>
+                  <a href="#"  >
+                    <p className="footertitlep">History</p>
+                  </a>
+                  <a href="#"  >
+                    <p className="footertitlep">Our Team</p>
+                  </a>
+                  <a href="#"  >
+                    <p className="footertitlep">Brand Guidelines</p>
+                  </a>
+                  <a href="#"  >
+                    <p className="footertitlep">Terms {"&"} Condition</p>
+                  </a>
+                  <a href="#"  >
+                    <p className="footertitlep">Privacy Policy</p>
+                  </a>
+
+                </div>
+                <div className="col-md-4 col-sm-12 col-lg-4">
+
+                  <p className="footertitle">Services</p>
+
+                  <a href="#"  >
+                    <p className="footertitlep">How to Order</p>
+                  </a>
+                  <a href="#"  >
+                    <p className="footertitlep">Our Product</p>
+                  </a>
+                  <a href="#"  >
+                    <p className="footertitlep">Order Status</p>
+                  </a>
+                  <a href="#"  >
+                    <p className="footertitlep">Promo</p>
+                  </a>
+                  <a href="#"  >
+                    <p className="footertitlep">Payment Method</p>
+                  </a>
+
+                </div>
+                <div className="col-md-4 col-sm-12 col-lg-4">
+                  <p className="footertitle">Other</p>
+                  <a href="#">
+                    <p className="footertitlep">Contact Us</p>
+                  </a>
+                  <a href="#">
+                    <p className="footertitlep">Help</p>
+                  </a>
+                  <a href="#">
+                    <p className="footertitlep">Privacy</p>
+                  </a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      {/* <!-- Footer --> */}
 
 
 
